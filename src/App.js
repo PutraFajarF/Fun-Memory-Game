@@ -3,9 +3,9 @@ import './App.css'
 import SingleCard from './components/SingleCard'
 
 const cardImages = [
-  { "src": "/img/helmet-1.png", matched: false  },
-  { "src": "/img/potion-1.png", matched: false  },
-  { "src": "/img/ring-1.png", matched: false  },
+  { "src": "/img/helmet-1.png", matched: false },
+  { "src": "/img/potion-1.png", matched: false },
+  { "src": "/img/ring-1.png", matched: false },
   { "src": "/img/scroll-1.png", matched: false },
   { "src": "/img/shield-1.png", matched: false },
   { "src": "/img/sword-1.png", matched: false }
@@ -46,9 +46,9 @@ function App() {
             }
           })
         })
-        resetTurn()
+        resetTurn();
       } else {
-        resetTurn()
+        setTimeout(() => resetTurn(), 500);
       }
     }
   }, [choiceOne, choiceTwo])
@@ -67,7 +67,12 @@ function App() {
       <button onClick={shuffleCards}>New Game</button>
       <div className='card-grid'>
         {cards.map(card => (
-          <SingleCard card={card} key={card.id} handleChoice={handleChoice}/>
+          <SingleCard 
+            card={card} 
+            key={card.id} 
+            handleChoice={handleChoice}
+            flipped={card === choiceOne || card === choiceTwo || card.matched}
+          />
         ))}
       </div>
     </div>
