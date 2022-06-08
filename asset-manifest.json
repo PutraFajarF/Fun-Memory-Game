@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Fun-Memory-Game/static/css/main.e02ebf56.css",
-    "main.js": "/Fun-Memory-Game/static/js/main.279afc7f.js",
+    "main.js": "/Fun-Memory-Game/static/js/main.7dc478b7.js",
     "index.html": "/Fun-Memory-Game/index.html",
     "main.e02ebf56.css.map": "/Fun-Memory-Game/static/css/main.e02ebf56.css.map",
-    "main.279afc7f.js.map": "/Fun-Memory-Game/static/js/main.279afc7f.js.map"
+    "main.7dc478b7.js.map": "/Fun-Memory-Game/static/js/main.7dc478b7.js.map"
   },
   "entrypoints": [
     "static/css/main.e02ebf56.css",
-    "static/js/main.279afc7f.js"
+    "static/js/main.7dc478b7.js"
   ]
 }
