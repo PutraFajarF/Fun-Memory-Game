@@ -13,7 +13,7 @@ const SingleCard = ({ card, handleChoice, flipped, disabled }) => {
         <img 
           className="back" 
           src="https://putrafajarf.github.io/Fun-Memory-Game/img/cover.png"
-          onClick={handleClick} 
+          onClick={flipped ? console.log("Select another card!") : handleClick} 
           alt="cover" />
       </div>
     </div>
