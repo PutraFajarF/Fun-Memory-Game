@@ -12,7 +12,7 @@ const SingleCard = ({ card, handleChoice, flipped, disabled }) => {
         <img className="front" src={card.src} alt="card front" />
         <img 
           className="back" 
-          src="/img/cover.png" 
+          src="https://putrafajarf.github.io/Fun-Memory-Game/img/cover.png"
           onClick={handleClick} 
           alt="cover" />
       </div>

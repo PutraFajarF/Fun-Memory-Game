@@ -1,14 +1,14 @@
-import { useEffect, useState } from 'react'
-import './App.css'
-import SingleCard from './components/SingleCard'
+import { useEffect, useState } from 'react';
+import './App.css';
+import SingleCard from './components/SingleCard';
 
 const cardImages = [
-  { "src": "/img/helmet-1.png", matched: false },
-  { "src": "/img/potion-1.png", matched: false },
-  { "src": "/img/ring-1.png", matched: false },
-  { "src": "/img/scroll-1.png", matched: false },
-  { "src": "/img/shield-1.png", matched: false },
-  { "src": "/img/sword-1.png", matched: false }
+  { "src": "https://putrafajarf.github.io/Fun-Memory-Game/img/helmet-1.png", matched: false },
+  { "src": "https://putrafajarf.github.io/Fun-Memory-Game/img/potion-1.png", matched: false },
+  { "src": "https://putrafajarf.github.io/Fun-Memory-Game/img/ring-1.png", matched: false },
+  { "src": "https://putrafajarf.github.io/Fun-Memory-Game/img/scroll-1.png", matched: false },
+  { "src": "https://putrafajarf.github.io/Fun-Memory-Game/img/shield-1.png", matched: false },
+  { "src": "https://putrafajarf.github.io/Fun-Memory-Game/img/sword-1.png", matched: false }
 ];
 
 function App() {
